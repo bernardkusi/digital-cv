@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 140%;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background: #f8fffe;
+}
+
+body h1, body h3 {
+  color: #36a596;
+  font-size: 1.65rem;
+  padding-bottom: .6rem;
+}
+
+body h4 {
+  color: #36a596;
+}
+
+body p, body li {
+  color: #3d3d3d;
+  font-size: 1.04rem;
+  line-height: 170%;
+}
+
+body ul {
+  list-style: none;
+}
+
+body ul li {
+  color: #3d3d3d;
+}
+
+.center, .style {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.style {
+  max-width: 960px;
+  padding: 2px;
+  margin: 4rem 0;
+  border-radius: .6rem;
+  -webkit-box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.1);
+}
+
+.page {
+  background: #fff;
+  padding: 6rem calc(2rem + 3vw);
+  border-radius: .4rem;
+}
+
+.page .intro {
+  margin: 1rem 0;
+}
+
+.page .intro h1 {
+  font-size: 2.7rem;
+  padding-bottom: 0;
+}
+
+.page .intro h3 {
+  padding-bottom: 0;
+}
+
+.page .intro p {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.page .intro p a {
+  font-weight: 500;
+  color: #014d45;
+}
+
+.page .summary, .page #skills, .page #languages {
+  padding: .7rem 0;
+}
+
+.page #languages .languageflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .7rem 0;
+}
+
+.page #languages .languageflex ul {
+  width: 50%;
+}
+
+.page #education .educationflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4rem;
+}
+/*# sourceMappingURL=index.css.map */
